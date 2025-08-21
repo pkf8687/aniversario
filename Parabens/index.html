@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Samy - Feliz Aniversário</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Montserrat:wght@300;400;600&display=swap');
+        
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #faf5ff;
+            color: #4a1d96;
+        }
+        
+        .handwriting {
+            font-family: 'Dancing Script', cursive;
+        }
+        
+        .message-card {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(5px);
+            border-left: 5px solid #8b5cf6;
+            transition: all 0.3s ease;
+        }
+        
+        .message-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(139, 92, 246, 0.2);
+        }
+        
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: linear-gradient(to bottom, #8b5cf6, #ec4899);
+            transform: translateX(-50%);
+        }
+        
+        .heart-beat {
+            animation: pulse 1.5s infinite;
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+        
+        .fade-in {
+            animation: fadeIn 1.5s ease-in;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body class="min-h-screen pb-20">
+
+    <header class="relative h-96 overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-b from-purple-900/30 to-purple-500/50 z-10"></div>
+        <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20 text-center text-white px-4">
+            <h1 class="text-4xl md:text-6xl font-bold mb-4 handwriting fade-in">Feliz Aniversário, Samy</h1>
+            <p class="text-xl md:text-2xl opacity-90">Uma mensagem especial para alguém extraordinário</p>
+        </div>
+    </header>
+
+    <section class="container mx-auto px-4 py-12 max-w-4xl relative">
+        <div class="timeline pt-8 pb-20">
+        
+            <div class="message-card rounded-lg p-6 mb-8 w-full mx-auto relative z-10">
+                <div class="flex items-start">
+                    <div class="heart-beat text-2xl mr-4">💜</div>
+                    <div>
+                        <p class="text-xs text-gray-500 mb-1">PARABENS SAMY </p>
+                        <p class="text-lg leading-relaxed">
+                            Oii samy Feliz aniversário então por onde eu começo.
+                            Vamo lá né, dia 27 de setembro foi o dia que conheci você e sim me lembro desse dia como se fosse ontem e cara não vou mentir depois disso eu mudei bastante
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="message-card rounded-lg p-6 mb-8 w-full mx-auto relative z-10">
+                <div class="flex items-start">
+                    <div class="heart-beat text-2xl mr-4">💜</div>
+                    <div>
+                        <p class="text-xs text-gray-500 mb-1">Aff sou so um menino APAIXONADO nessa morena linda.</p>
+                        <p class="text-lg leading-relaxed">
+                            Sei que é meio louco isso de eu falar que me apaixonei por uma mina q nunca tinha visto mas real aconteceu, sla sentia que com você eu poderia ser eu mesmo sem julgamento e amei sua personalidade e o seu jeitinho de ser.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="message-card rounded-lg p-6 mb-8 w-full mx-auto relative z-10">
+                <div class="flex items-start">
+                    <div class="heart-beat text-2xl mr-4">💜</div>
+                    <div>
+                        <p class="text-xs text-gray-500 mb-1">É ja falei isso uma vez e repito denovo mesmo.</p>
+                        <p class="text-lg leading-relaxed">
+                            Sim, eu não ligava para seu privacy antes que fale que ah eu só gostei de você por conta do seu corpo (sei que nunca falou isso, só estou falando mesmo).
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        
+            <div class="message-card rounded-lg p-6 mb-8 w-full mx-auto relative z-10">
+                <div class="flex items-start">
+                    <div class="heart-beat text-2xl mr-4">💜</div>
+                    <div>
+                        <p class="text-xs text-gray-500 mb-1">F1 quando... brincando.</p>
+                        <p class="text-lg leading-relaxed">
+                            É a maconha... eu não sei oq falar sobre ela mas não acho que seja ruim você fumar um.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+      
+            <div class="message-card rounded-lg p-6 mb-8 w-full mx-auto relative z-10">
+                <div class="flex items-start">
+                    <div class="heart-beat text-2xl mr-4">💜</div>
+                    <div>
+                        <p class="text-xs text-gray-500 mb-1">DETESTO.</p>
+                        <p class="text-lg leading-relaxed">
+                            Odeio seus remédios. Não vou entrar em detalhes mas eles te fazem mais mal doq bem.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+       
+            <div class="message-card rounded-lg p-6 mb-8 w-full mx-auto relative z-10">
+                <div class="flex items-start">
+                    <div class="heart-beat text-2xl mr-4">💜</div>
+                    <div>
+                        <p class="text-xs text-gray-500 mb-1">Te amo de vdd ta ouvindo loka</p>
+                        <p class="text-lg leading-relaxed">
+                            Olha samy eu ainda te amo na real eu sempre gostei de vc desde quando comecei a sentir algo, porra me sinto meio louco mas sla vc pensa que não é uma mina apaixonante e eu penso totalmente ao contrário, que eu via uma mina incrível que só precisava de alguém para apoiá-la, teve momentos que eu estava parando de te ver com esse olhos mas sempre q conversávamos sla parecia que tinha algo para reacender essa chama e pfv não pense que fiz tudo oq fiz por isso, que te ajudei e fiz tudo oq fiz pq vc é preciosa para mim
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+          
+            <div class="message-card rounded-lg p-6 mb-8 w-full mx-auto relative z-10">
+                <div class="flex items-start">
+                    <div class="heart-beat text-2xl mr-4">💜</div>
+                    <div>
+                        <p class="text-xs text-gray-500 mb-1">Eu real sinto muito por isso</p>
+                        <p class="text-lg leading-relaxed">
+                            Assim tem momentos que não entendo sua doença e me desculpe por isso, que por conta disso eu falo muitas coisas que fazem vc ficar triste cmg nunca falo elas por mal apenas para tentar ajudar mas desculpe por tudo.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+           
+            <div class="message-card rounded-lg p-6 mb-8 w-full mx-auto relative z-10">
+                <div class="flex items-start">
+                    <div class="heart-beat text-2xl mr-4">💜</div>
+                    <div>
+                        <p class="text-xs text-gray-500 mb-1">Uma mensagem final</p>
+                        <p class="text-lg leading-relaxed">
+                            Olha vou respeitar seu tempo que acho que você está brava comigo mas serio quando precisar de alguém só chamr a mas e se você ficar brava comigo por bastante tempo... po iria ficar bem tristonho mas vou te respeitar. E samy parabéns novamente deu trabalho fazer tudo isso espero que goste, não é tudo mas tive que resumir bastante coisa e não falei de outras coisas tbm mas é isso eu te AMO e sempre vou estar aqui te amando
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="container mx-auto px-4 py-12 max-w-6xl">
+    <h2 class="text-3xl font-bold text-center mb-12 handwriting">sla o mlk ae que te ama</h2>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Foto 1 -->
+        <div class="photo-card rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all">
+            <img src="img/imagem1.jpeg" alt="Descrição da imagem 1" class="w-full object-cover" style="max-height: 400px; object-fit: cover;">
+            <div class="bg-white p-4">
+                <p class="text-sm text-gray-600">Bem limpinho ele so ta meio escurinho.</p>
+            </div>
+        </div>
+        
+        <!-- Foto 2 -->
+        <div class="photo-card rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all">
+            <video controls class="w-full" style="max-height: 400px;">
+                <source src="img/video1.mp4" type="video/mp4">
+                Seu navegador não suporta o elemento de vídeo.
+            </video> 
+            <div class="bg-white p-4">
+                <p class="text-sm text-gray-600">Arrumadinho pelo menos.</p>
+            </div>
+        </div>
+        
+        <!-- Foto 3 -->
+        <div class="photo-card rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all">
+            <img src="img/imagem2.jpeg" alt="Descrição da imagem 2" class="w-full object-cover" style="max-height: 400px; object-fit: cover;">
+            <div class="bg-white p-4">
+                <p class="text-sm text-gray-600">Ain que sexy...KKKKKKKK</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- video para o final-->
+    <section class="container mx-auto px-4 py-12 max-w-4xl text-center">
+        <h2 class="text-3xl font-bold mb-8 handwriting">Assistir Quando Quiser</h2>
+        <div class="aspect-w-16 aspect-h-9 rounded-xl overflow-hidden shadow-2xl">
+        
+            <video controls class="w-full">
+                <source src="img/video2.mp4" type="video/mp4">
+            </video>
+        </div>
+        <p class="mt-6 text-purple-700">Espero que você goste fiz com todo meu carinho ❤️</p>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="bg-purple-900 text-white py-8">
+        <div class="container mx-auto px-4 text-center">
+            <p class="handwriting text-xl mb-2">Com amor, Seu neguinho do coração</p>
+            <p class="text-sm opacity-80">Feliz aniversário novamente e que esse dia seja tão especial quanto você é para mim. </p>
+            <p class="text-sm opacity-80">E desculpa denovo samy, vou tentar ser melhor. </p>
+
+        </div>
+    </footer>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        const fadeElements = document.querySelectorAll('.fade-in');
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('opacity-100');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        fadeElements.forEach(el => {
+            el.classList.add('opacity-0', 'transition-opacity', 'duration-1000');
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+
